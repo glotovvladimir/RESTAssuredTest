@@ -1,0 +1,13 @@
+TestFramework\files\resources.class
+TestFramework\JiraAPIUpdateComment.class
+TestFramework\AppTest.class
+TestFramework\addAndDeletePlace.class
+TestFramework\basic2Post.class
+TestFramework\JIRAApi.class
+TestFramework\Basics5.class
+TestFramework\JIRAAddComment.class
+TestFramework\basicPostXML.class
+TestFramework\files\payload.class
+TestFramework\Basics.class
+TestFramework\TweetTest.class
+TestFramework\files\UsableMethods.class

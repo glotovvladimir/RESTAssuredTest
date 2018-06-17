@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+    <test name="order">
+        <classes>
+            <class name="TestFramework.Basics"/>
+            <class name="TestFramework.Basics5"/>
+            <class name="TestFramework.addAndDeletePlace"/>
+            <class name="TestFramework.basicPostXML"/>
+            <class name="TestFramework.basic2Post"/>
+        </classes>
+    </test>
+</suite>

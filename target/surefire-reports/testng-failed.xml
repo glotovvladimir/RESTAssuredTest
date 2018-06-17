@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestAll]">
+  <test thread-count="5" verbose="0" name="order(failed)">
+    <classes>
+      <class name="TestFramework.TweetTest">
+        <methods>
+          <include name="deleteTweet"/>
+          <include name="getLatestTweet"/>
+          <include name="getData"/>
+          <include name="createTweet"/>
+        </methods>
+      </class> <!-- TestFramework.TweetTest -->
+    </classes>
+  </test> <!-- order(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

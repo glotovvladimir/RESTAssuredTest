@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="6547" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:23Z">
+    <groups>
+    </groups>
+    <test name="order" duration-ms="6547" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:23Z">
+      <class name="TestFramework.addAndDeletePlace">
+        <test-method status="PASS" signature="addAndDeletePlace()[pri:0, instance:TestFramework.addAndDeletePlace@327471b5]" name="addAndDeletePlace" duration-ms="832" started-at="2018-06-15T19:28:22Z" finished-at="2018-06-15T19:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndDeletePlace -->
+      </class> <!-- TestFramework.addAndDeletePlace -->
+      <class name="TestFramework.Basics">
+        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.Basics@6be46e8f]" name="getData" is-config="true" duration-ms="16" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.Basics5@3567135c]" name="getData" is-config="true" duration-ms="0" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.addAndDeletePlace@327471b5]" name="getData" is-config="true" duration-ms="0" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.basic2Post@90f6bfd]" name="getData" is-config="true" duration-ms="0" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.basicPostXML@4157f54e]" name="getData" is-config="true" duration-ms="0" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getPlaceTest()[pri:0, instance:TestFramework.Basics@6be46e8f]" name="getPlaceTest" duration-ms="4419" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaceTest -->
+      </class> <!-- TestFramework.Basics -->
+      <class name="TestFramework.basic2Post">
+        <test-method status="PASS" signature="createPlace()[pri:0, instance:TestFramework.basic2Post@90f6bfd]" name="createPlace" duration-ms="344" started-at="2018-06-15T19:28:23Z" finished-at="2018-06-15T19:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlace -->
+      </class> <!-- TestFramework.basic2Post -->
+      <class name="TestFramework.basicPostXML">
+        <test-method status="PASS" signature="postPlaceXML()[pri:0, instance:TestFramework.basicPostXML@4157f54e]" name="postPlaceXML" duration-ms="359" started-at="2018-06-15T19:28:23Z" finished-at="2018-06-15T19:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPlaceXML -->
+      </class> <!-- TestFramework.basicPostXML -->
+      <class name="TestFramework.Basics5">
+        <test-method status="PASS" signature="extractingNames()[pri:0, instance:TestFramework.Basics5@3567135c]" name="extractingNames" duration-ms="531" started-at="2018-06-15T19:28:21Z" finished-at="2018-06-15T19:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractingNames -->
+      </class> <!-- TestFramework.Basics5 -->
+    </test> <!-- order -->
+  </suite> <!-- TestAll -->
+</testng-results>
