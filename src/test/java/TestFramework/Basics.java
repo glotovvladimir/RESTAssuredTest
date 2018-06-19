@@ -3,6 +3,8 @@ package TestFramework;
 import TestFramework.files.*;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -15,6 +17,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class Basics {
 
     Properties prop = new Properties();
+    private static Logger log = LogManager.getLogger(addAndDeletePlace.class.getName());
 
     @BeforeTest
     public void getData() {

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="basePath">logs</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyy-MM-dd}.log">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="400" />
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="TestFramework.addAndDeletePlace" level="info" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+        <Root level="error">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

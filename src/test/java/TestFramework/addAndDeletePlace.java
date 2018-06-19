@@ -23,7 +23,7 @@ public class addAndDeletePlace {
     @BeforeTest
     public void getData() {
         try {
-            FileInputStream fis = new FileInputStream("src\\test\\java\\TestFramework\\files\\env.properties");
+            FileInputStream fis = new FileInputStream("/Users/vglotov/git/RestAPICourse/RESTAssuredTest/src/test/java/TestFramework/files/env.properties");
             prop.load(fis);
             log.debug("wert");
         } catch (java.io.IOException e) {
@@ -33,6 +33,7 @@ public class addAndDeletePlace {
 
     @Test
     public void addAndDeletePlace() {
+        log.error("Host info " + prop.getProperty("HOST"));
 
         RestAssured.baseURI = prop.getProperty("HOST");
 
