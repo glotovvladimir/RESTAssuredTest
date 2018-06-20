@@ -1,6 +1,8 @@
 package TestFramework;
 
-import TestFramework.files.*;
+import googleAPI.UsableMethods;
+import googleAPI.payload;
+import googleAPI.resources;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -23,9 +25,9 @@ public class addAndDeletePlace {
     @BeforeTest
     public void getData() {
         try {
-            FileInputStream fis = new FileInputStream("/Users/vglotov/git/RestAPICourse/RESTAssuredTest/src/test/java/TestFramework/files/env.properties");
+            FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "//env.properties");
             prop.load(fis);
-            log.error("wert");
+            log.error(System.getProperty("user.dir"));
         } catch (java.io.IOException e) {
             e.printStackTrace();
         }

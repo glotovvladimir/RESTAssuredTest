@@ -1,8 +1,11 @@
 package TestFramework;
 
-import TestFramework.files.*;
+import googleAPI.payload;
+import googleAPI.resources;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -14,12 +17,12 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class basic2Post {
 
-    Properties prop = new Properties();
+    private Properties prop = new Properties();
 
     @BeforeTest
     public void getData() {
         try {
-            FileInputStream fis = new FileInputStream("/Users/vglotov/git/RestAPICourse/RESTAssuredTest/src/test/java/TestFramework/files/env.properties");
+            FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "//env.properties");
             prop.load(fis);
         } catch (java.io.IOException e) {
             e.printStackTrace();

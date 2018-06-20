@@ -1,8 +1,11 @@
-17:44:36 [main] INFO  TestFramework.addAndDeletePlace - {
-   "id" : "541975f7977187edda7fb591d4cf1ccff306324b",
-   "place_id" : "qgYvCi0wMDAwMDAwMTg1NjY4Y2NkOjQxMTRjNzA2ZWNiOjNkMjMxYTM5NmNiMTkxZDg",
-   "reference" : "CkQxAAAAD-eoRtn4fHVPT-aPVFSVBzWnRr81WPPn5Emm1X_-FYkkNLKHJLikJQxZ5IG2GSd53R-87aqM0Oc3BTbiha3I1hIQWZsDteSS3hDFYR9f5Oak1hoUKfx8Zs0sq3GVw0bWscC0UjPz7hw",
+18:33:32 [main] ERROR TestFramework.addAndDeletePlace - /Users/vglotov/git/RestAPICourse/RESTAssuredTest
+18:33:32 [main] ERROR TestFramework.addAndDeletePlace - Host info https://maps.googleapis.com
+18:33:37 [main] INFO  TestFramework.addAndDeletePlace - {
+   "id" : "7d7c4913d155397ecdd4d0caf264d1542017b08a",
+   "place_id" : "qgYvCi0wMDAwMDAwMTg1NjY4Y2NkOjQxMTRjNzA2ZWNiOjlkZGU2OWU3MDY3YTIyOWY",
+   "reference" : "CkQxAAAAbXNuN6ZVAsb5MEHJsA1NY2mOpFQmmadmSOMw-l0dxJCmTEBu1VEwyIHgMqOB-bnJTexwDBHMNhxBWRPwP7DMuBIQcHSumAnEIsclwEJC6yho4RoUz5nIVpDB4F3ANAyXzfdfMYW4_w4",
    "scope" : "APP",
    "status" : "OK"
 }
 
+19:14:15 [main] INFO  TestFramework.addAndDeletePlace - placeID = qgYvCi0wMDAwMDAwMTg1NjY4Y2NkOjZiMTJhZTM3YjQ3OmNiNmQ3Y2M0MzVjODkwNmI
