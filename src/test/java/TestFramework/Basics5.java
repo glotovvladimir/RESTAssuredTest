@@ -21,7 +21,7 @@ public class Basics5 {
     @BeforeTest
     public void getData() {
         try {
-            FileInputStream fis = new FileInputStream("src\\test\\java\\TestFramework\\files\\env.properties");
+            FileInputStream fis = new FileInputStream("/Users/vglotov/git/RestAPICourse/RESTAssuredTest/src/test/java/TestFramework/files/env.properties");
             prop.load(fis);
         } catch (java.io.IOException e) {
             e.printStackTrace();

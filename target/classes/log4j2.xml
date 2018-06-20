@@ -11,7 +11,7 @@
 
         <RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyy-MM-dd}.log">
             <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
-            <SizeBasedTriggeringPolicy size="400" />
+            <SizeBasedTriggeringPolicy size="700" />
         </RollingFile>
     </Appenders>
 

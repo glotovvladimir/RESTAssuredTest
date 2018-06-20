@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestAll]">
-  <test thread-count="5" verbose="0" name="order(failed)">
+<suite name="Failed suite [TestAll]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="order(failed)" verbose="0">
     <classes>
-      <class name="TestFramework.TweetTest">
+      <class name="TestFramework.basicPostXML">
         <methods>
-          <include name="deleteTweet"/>
-          <include name="getLatestTweet"/>
+          <include name="postPlaceXML"/>
           <include name="getData"/>
-          <include name="createTweet"/>
         </methods>
-      </class> <!-- TestFramework.TweetTest -->
+      </class> <!-- TestFramework.basicPostXML -->
     </classes>
   </test> <!-- order(failed) -->
 </suite> <!-- Failed suite [TestAll] -->

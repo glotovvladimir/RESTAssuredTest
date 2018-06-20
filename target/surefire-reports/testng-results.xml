@@ -1,57 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="TestAll" duration-ms="6547" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:23Z">
+  <suite started-at="2018-06-20T13:11:11Z" name="TestAll" finished-at="2018-06-20T13:11:18Z" duration-ms="6435">
     <groups>
     </groups>
-    <test name="order" duration-ms="6547" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:23Z">
+    <test started-at="2018-06-20T13:11:11Z" name="order" finished-at="2018-06-20T13:11:18Z" duration-ms="6435">
       <class name="TestFramework.addAndDeletePlace">
-        <test-method status="PASS" signature="addAndDeletePlace()[pri:0, instance:TestFramework.addAndDeletePlace@327471b5]" name="addAndDeletePlace" duration-ms="832" started-at="2018-06-15T19:28:22Z" finished-at="2018-06-15T19:28:23Z">
+        <test-method signature="addAndDeletePlace()[pri:0, instance:TestFramework.addAndDeletePlace@46b61c56]" started-at="2018-06-20T13:11:16Z" name="addAndDeletePlace" finished-at="2018-06-20T13:11:17Z" duration-ms="917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAndDeletePlace -->
       </class> <!-- TestFramework.addAndDeletePlace -->
       <class name="TestFramework.Basics">
-        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.Basics@6be46e8f]" name="getData" is-config="true" duration-ms="16" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
+        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.Basics@36060e]" started-at="2018-06-20T13:11:11Z" name="getData" finished-at="2018-06-20T13:11:11Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.Basics5@3567135c]" name="getData" is-config="true" duration-ms="0" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
+        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.Basics5@481ba2cf]" started-at="2018-06-20T13:11:11Z" name="getData" finished-at="2018-06-20T13:11:11Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.addAndDeletePlace@327471b5]" name="getData" is-config="true" duration-ms="0" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
+        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.addAndDeletePlace@46b61c56]" started-at="2018-06-20T13:11:11Z" name="getData" finished-at="2018-06-20T13:11:11Z" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.basic2Post@90f6bfd]" name="getData" is-config="true" duration-ms="0" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
+        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.basic2Post@2e48362c]" started-at="2018-06-20T13:11:11Z" name="getData" finished-at="2018-06-20T13:11:11Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.basicPostXML@4157f54e]" name="getData" is-config="true" duration-ms="0" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getPlaceTest()[pri:0, instance:TestFramework.Basics@6be46e8f]" name="getPlaceTest" duration-ms="4419" started-at="2018-06-15T19:28:17Z" finished-at="2018-06-15T19:28:21Z">
+        <test-method signature="getPlaceTest()[pri:0, instance:TestFramework.Basics@36060e]" started-at="2018-06-20T13:11:11Z" name="getPlaceTest" finished-at="2018-06-20T13:11:16Z" duration-ms="4438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPlaceTest -->
       </class> <!-- TestFramework.Basics -->
       <class name="TestFramework.basic2Post">
-        <test-method status="PASS" signature="createPlace()[pri:0, instance:TestFramework.basic2Post@90f6bfd]" name="createPlace" duration-ms="344" started-at="2018-06-15T19:28:23Z" finished-at="2018-06-15T19:28:23Z">
+        <test-method signature="createPlace()[pri:0, instance:TestFramework.basic2Post@2e48362c]" started-at="2018-06-20T13:11:17Z" name="createPlace" finished-at="2018-06-20T13:11:18Z" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPlace -->
       </class> <!-- TestFramework.basic2Post -->
-      <class name="TestFramework.basicPostXML">
-        <test-method status="PASS" signature="postPlaceXML()[pri:0, instance:TestFramework.basicPostXML@4157f54e]" name="postPlaceXML" duration-ms="359" started-at="2018-06-15T19:28:23Z" finished-at="2018-06-15T19:28:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postPlaceXML -->
-      </class> <!-- TestFramework.basicPostXML -->
       <class name="TestFramework.Basics5">
-        <test-method status="PASS" signature="extractingNames()[pri:0, instance:TestFramework.Basics5@3567135c]" name="extractingNames" duration-ms="531" started-at="2018-06-15T19:28:21Z" finished-at="2018-06-15T19:28:22Z">
+        <test-method signature="extractingNames()[pri:0, instance:TestFramework.Basics5@481ba2cf]" started-at="2018-06-20T13:11:16Z" name="extractingNames" finished-at="2018-06-20T13:11:16Z" duration-ms="688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractingNames -->

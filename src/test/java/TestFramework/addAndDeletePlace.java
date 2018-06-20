@@ -25,7 +25,7 @@ public class addAndDeletePlace {
         try {
             FileInputStream fis = new FileInputStream("/Users/vglotov/git/RestAPICourse/RESTAssuredTest/src/test/java/TestFramework/files/env.properties");
             prop.load(fis);
-            log.debug("wert");
+            log.error("wert");
         } catch (java.io.IOException e) {
             e.printStackTrace();
         }
@@ -48,6 +48,7 @@ public class addAndDeletePlace {
                 extract().response();
 
         String placeId = UsableMethods.rawToJson(response).get("place_id");
+        log.info(response.asString());
 
         given().log().all().
                 queryParam("key", prop.getProperty("KEY")).

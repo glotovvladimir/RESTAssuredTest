@@ -1,5 +1,13 @@
-18:45:38 [main] ERROR TestFramework.addAndDeletePlace - Host info https://maps.googleapis.com
-18:46:41 [main] ERROR TestFramework.addAndDeletePlace - Host info https://maps.googleapis.com
-18:47:35 [main] ERROR TestFramework.addAndDeletePlace - Host info https://maps.googleapis.com
-18:51:52 [main] ERROR TestFramework.addAndDeletePlace - Host info https://maps.googleapis.com
-18:53:06 [main] ERROR TestFramework.addAndDeletePlace - Host info https://maps.googleapis.com
+17:13:44 [main] ERROR TestFramework.addAndDeletePlace - wert
+17:13:45 [main] ERROR TestFramework.addAndDeletePlace - Host info https://maps.googleapis.com
+17:13:52 [main] INFO  TestFramework.addAndDeletePlace - io.restassured.internal.RestAssuredResponseImpl@7de4a01f
+17:15:02 [main] ERROR TestFramework.addAndDeletePlace - wert
+17:15:02 [main] ERROR TestFramework.addAndDeletePlace - Host info https://maps.googleapis.com
+17:15:09 [main] INFO  TestFramework.addAndDeletePlace - {
+   "id" : "e51ed220403e4c6edcbbeb19ce2006ea883f8551",
+   "place_id" : "qgYvCi0wMDAwMDAwMTg1NjY4Y2NkOjQxMTRjNzA2ZWNiOjc2ODBiNDBmZjk0YmI3Mjk",
+   "reference" : "CkQxAAAAwATdniAlJ_K3nfKfQVr_mvL1awLJwuGf7fLvrP1JGxxzzOrQO9npB2tANQQbs3jqAvZcA68XZQurijp0MoUc6xIQLOQfQ3jsZhPR5_z0LpY0UhoUCdkQnwQhPqoDQ6pIlSMuzE1-jbE",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
