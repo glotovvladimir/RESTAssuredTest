@@ -1,6 +1,6 @@
 package TestFramework;
 
-import googleAPI.UsableMethods;
+import ReusableMethods.*;
 import googleAPI.payload;
 import googleAPI.resources;
 import io.restassured.RestAssured;

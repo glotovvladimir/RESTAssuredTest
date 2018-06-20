@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d31450bd-351e-4287-9a92-7c3ab4a2e713" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/env.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/googleAPI/UsableMethods.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/googleAPI/payload.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/googleAPI/payloadForXML.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/googleAPI/resources.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ReusableMethods/UsableMethods.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RESTAssuredTest.iml" afterPath="$PROJECT_DIR$/RESTAssuredTest.iml" />
-      <change beforePath="$PROJECT_DIR$/logs/prints.log" afterPath="$PROJECT_DIR$/logs/prints.log" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/src/main/java/resources/log4j2.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestFramework/addAndDeletePlace.java" afterPath="$PROJECT_DIR$/src/test/java/TestFramework/addAndDeletePlace.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFramework/basic2Post.java" afterPath="$PROJECT_DIR$/src/test/java/TestFramework/basic2Post.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFramework/basicPostXML.java" afterPath="$PROJECT_DIR$/src/test/java/TestFramework/basicPostXML.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestFramework/App.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFramework/Basics.class" afterPath="$PROJECT_DIR$/target/test-classes/TestFramework/Basics.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFramework/Basics5.class" afterPath="$PROJECT_DIR$/target/test-classes/TestFramework/Basics5.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFramework/TweetTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TestFramework/TweetTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFramework/addAndDeletePlace.class" afterPath="$PROJECT_DIR$/target/test-classes/TestFramework/addAndDeletePlace.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFramework/basic2Post.class" afterPath="$PROJECT_DIR$/target/test-classes/TestFramework/basic2Post.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFramework/basicPostXML.class" afterPath="$PROJECT_DIR$/target/test-classes/TestFramework/basicPostXML.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +25,21 @@
       <file leaf-file-name="addAndDeletePlace.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestFramework/addAndDeletePlace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="107" />
+            <state relative-caret-position="181">
+              <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsableMethods.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ReusableMethods/UsableMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basicPostXML.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basicPostXML.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestFramework/basicPostXML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+            <state relative-caret-position="465">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,11 +132,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/googleAPI/payload.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestFramework/addAndDeletePlace.java" />
         <option value="$PROJECT_DIR$/src/main/java/googleAPI/UsableMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFramework/basic2Post.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFramework/basicPostXML.java" />
         <option value="$PROJECT_DIR$/src/main/java/googleAPI/resources.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestFramework/addAndDeletePlace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReusableMethods/UsableMethods.java" />
       </list>
     </option>
   </component>
@@ -226,6 +219,22 @@
               <item name="RESTAssuredTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RESTAssuredTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RESTAssuredTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RESTAssuredTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ReusableMethods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RESTAssuredTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RESTAssuredTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,6 +287,7 @@
       <recent name="C:\Users\Владимир\IdeaProjects\RESTAssuredTest\src\test\java\TestFramework" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ReusableMethods" />
       <recent name="googleAPI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -678,7 +688,7 @@
       <updated>1528915321683</updated>
       <workItem from="1529316599909" duration="45000" />
       <workItem from="1529417771364" duration="2494000" />
-      <workItem from="1529499354546" duration="6971000" />
+      <workItem from="1529499354546" duration="7460000" />
     </task>
     <servers />
   </component>
@@ -715,7 +725,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9510000" />
+    <option name="totallyTimeSpent" value="9999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="-1036" width="1506" height="911" extended-state="0" />
@@ -730,8 +740,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41361916" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42370743" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41361916" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42370743" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25956285" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -771,14 +781,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="85" lean-forward="false" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/prints.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1182,16 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestFramework/addAndDeletePlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/googleAPI/resources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1202,11 +1194,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestFramework/basicPostXML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        <state relative-caret-position="465">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFramework/addAndDeletePlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReusableMethods/UsableMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
