@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-06-20T13:11:11Z" name="TestAll" finished-at="2018-06-20T13:11:18Z" duration-ms="6435">
+  <suite started-at="2018-06-21T15:13:42Z" name="TestAll" finished-at="2018-06-21T15:13:48Z" duration-ms="6556">
     <groups>
     </groups>
-    <test started-at="2018-06-20T13:11:11Z" name="order" finished-at="2018-06-20T13:11:18Z" duration-ms="6435">
+    <test started-at="2018-06-21T15:13:42Z" name="order" finished-at="2018-06-21T15:13:48Z" duration-ms="6556">
       <class name="TestFramework.addAndDeletePlace">
-        <test-method signature="addAndDeletePlace()[pri:0, instance:TestFramework.addAndDeletePlace@46b61c56]" started-at="2018-06-20T13:11:16Z" name="addAndDeletePlace" finished-at="2018-06-20T13:11:17Z" duration-ms="917" status="PASS">
+        <test-method signature="addAndDeletePlace()[pri:0, instance:TestFramework.addAndDeletePlace@3bd323e9]" started-at="2018-06-21T19:13:47Z" name="addAndDeletePlace" finished-at="2018-06-21T19:13:48Z" duration-ms="941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAndDeletePlace -->
       </class> <!-- TestFramework.addAndDeletePlace -->
       <class name="TestFramework.Basics">
-        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.Basics@36060e]" started-at="2018-06-20T13:11:11Z" name="getData" finished-at="2018-06-20T13:11:11Z" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.Basics@1b75c2e3]" started-at="2018-06-21T19:13:42Z" name="getData" finished-at="2018-06-21T19:13:42Z" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.Basics5@481ba2cf]" started-at="2018-06-20T13:11:11Z" name="getData" finished-at="2018-06-20T13:11:11Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.addAndDeletePlace@3bd323e9]" started-at="2018-06-21T19:13:42Z" name="getData" finished-at="2018-06-21T19:13:42Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.addAndDeletePlace@46b61c56]" started-at="2018-06-20T13:11:11Z" name="getData" finished-at="2018-06-20T13:11:11Z" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.Basics5@1984b1f]" started-at="2018-06-21T19:13:42Z" name="getData" finished-at="2018-06-21T19:13:42Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.basic2Post@2e48362c]" started-at="2018-06-20T13:11:11Z" name="getData" finished-at="2018-06-20T13:11:11Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getData()[pri:0, instance:TestFramework.basic2Post@39ac0c0a]" started-at="2018-06-21T19:13:42Z" name="getData" finished-at="2018-06-21T19:13:42Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method signature="getPlaceTest()[pri:0, instance:TestFramework.Basics@36060e]" started-at="2018-06-20T13:11:11Z" name="getPlaceTest" finished-at="2018-06-20T13:11:16Z" duration-ms="4438" status="PASS">
+        <test-method signature="getPlaceTest()[pri:0, instance:TestFramework.Basics@1b75c2e3]" started-at="2018-06-21T19:13:42Z" name="getPlaceTest" finished-at="2018-06-21T19:13:46Z" duration-ms="4490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPlaceTest -->
       </class> <!-- TestFramework.Basics -->
       <class name="TestFramework.basic2Post">
-        <test-method signature="createPlace()[pri:0, instance:TestFramework.basic2Post@2e48362c]" started-at="2018-06-20T13:11:17Z" name="createPlace" finished-at="2018-06-20T13:11:18Z" duration-ms="303" status="PASS">
+        <test-method signature="createPlace()[pri:0, instance:TestFramework.basic2Post@39ac0c0a]" started-at="2018-06-21T19:13:48Z" name="createPlace" finished-at="2018-06-21T19:13:48Z" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPlace -->
       </class> <!-- TestFramework.basic2Post -->
       <class name="TestFramework.Basics5">
-        <test-method signature="extractingNames()[pri:0, instance:TestFramework.Basics5@481ba2cf]" started-at="2018-06-20T13:11:16Z" name="extractingNames" finished-at="2018-06-20T13:11:16Z" duration-ms="688" status="PASS">
+        <test-method signature="extractingNames()[pri:0, instance:TestFramework.Basics5@1984b1f]" started-at="2018-06-21T19:13:46Z" name="extractingNames" finished-at="2018-06-21T19:13:47Z" duration-ms="761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractingNames -->

@@ -2,10 +2,9 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -135,36 +134,6 @@
           <div class="suite-TestAll-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestFramework.Basics5</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="extractingNames">
-                  </a> <!-- extractingNames -->
-                  <span class="method-name">extractingNames</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestAll-class-passed -->
-          <div class="suite-TestAll-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestFramework.basic2Post</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createPlace">
-                  </a> <!-- createPlace -->
-                  <span class="method-name">createPlace</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestAll-class-passed -->
-          <div class="suite-TestAll-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">TestFramework.Basics</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -192,6 +161,36 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestFramework.Basics5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="extractingNames">
+                  </a> <!-- extractingNames -->
+                  <span class="method-name">extractingNames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestFramework.basic2Post</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPlace">
+                  </a> <!-- createPlace -->
+                  <span class="method-name">createPlace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
         </div> <!-- panel TestAll -->
         <div panel-name="test-xml-TestAll" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -202,7 +201,10 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;TestAll&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;order&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;resources.ExtentReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;order&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestFramework.Basics&quot;/&gt;
       &lt;class name=&quot;TestFramework.Basics5&quot;/&gt;
@@ -251,19 +253,19 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getPlaceTest')
 data.setCell(0, 2, 'TestFramework.Basics')
-data.setCell(0, 3, 4438);
+data.setCell(0, 3, 4490);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addAndDeletePlace')
 data.setCell(1, 2, 'TestFramework.addAndDeletePlace')
-data.setCell(1, 3, 917);
+data.setCell(1, 3, 941);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'extractingNames')
 data.setCell(2, 2, 'TestFramework.Basics5')
-data.setCell(2, 3, 688);
+data.setCell(2, 3, 761);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'createPlace')
 data.setCell(3, 2, 'TestFramework.basic2Post')
-data.setCell(3, 3, 303);
+data.setCell(3, 3, 304);
 window.suiteTableData['TestAll']= { tableData: data, tableDiv: 'times-div-TestAll'}
 return data;
 }
@@ -318,35 +320,35 @@ return data;
               <div class="chronological-class-name">TestFramework.basic2Post</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">getData</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-start">37 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestFramework.Basics</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getPlaceTest</span>
-                <span class="method-start">80 ms</span>
+                <span class="method-start">50 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestFramework.Basics5</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">extractingNames</span>
-                <span class="method-start">4522 ms</span>
+                <span class="method-start">4544 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestFramework.addAndDeletePlace</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addAndDeletePlace</span>
-                <span class="method-start">5211 ms</span>
+                <span class="method-start">5306 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestFramework.basic2Post</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createPlace</span>
-                <span class="method-start">6130 ms</span>
+                <span class="method-start">6249 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
