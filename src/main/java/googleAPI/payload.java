@@ -25,48 +25,4 @@ public class payload {
                 "}";
         return  body;
     }
-
-    public static String getJiraAuthBody() {
-        String body = "{\t\"username\": \"vladimir_glotov\",\t\"password\": \"Ukjnjd24!\" }";
-        return body;
-    }
-
-    public  static String getJiraAddIssiueBody() {
-        String body = "{\n" +
-                "    \"fields\": {\n" +
-                "       \"project\":\n" +
-                "       { \n" +
-                "          \"key\": \"RES\"\n" +
-                "       },\n" +
-                "       \"summary\": \"Wow wow defect\",\n" +
-                "       \"description\": \"Creating not first bug\",\n" +
-                "       \"issuetype\": {\n" +
-                "          \"name\": \"Ошибка\"\n" +
-                "       }\n" +
-                "   }\n" +
-                "}";
-        return  body;
-    }
-
-    public static String getJiraAddCommentBody() {
-        String body = "{\n" +
-                "      \"body\": \" 1232 \",\n" +
-                "      \"visibility\": {\n" +
-                "        \"type\": \"role\",\n" +
-                "        \"value\": \"Administrators\"\n" +
-                "      }\n" +
-                "}";
-        return  body;
-    }
-
-    public static String getJiraUpdateCommentBody() {
-        String body = "{\n" +
-                "        \"body\": \"Comment from REST API updated!\",\n" +
-                "        \"visibility\": {\n" +
-                "           \"type\": \"role\",\n" +
-                "           \"value\": \"Administrators\"\n" +
-                "       }\n" +
-                "    }";
-        return  body;
-    }
 }
