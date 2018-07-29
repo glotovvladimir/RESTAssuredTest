@@ -38,6 +38,7 @@ public class addAndDeletePlace {
         log.error("Host info " + prop.getProperty("HOST"));
 
         RestAssured.baseURI = prop.getProperty("HOST");
+        System.out.println();
 
         Response response = given().log().all().
                 queryParam("key", prop.getProperty("KEY")).and().
